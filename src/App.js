@@ -12,14 +12,16 @@ class App extends React.Component {
         cartSize: 0,
     };
 
+    componentDidMount() {
+        this.updateCartSize();
+    }
+
+    updateCartSize = () => {
+        tipser.getCurrentCartSize().then(cartSize => this.setState({ cartSize }));
+    };
+
     onClick = () => {
-        tipser
-            .addToCart('5ba2334a781baa0001ccdf33')
-            .then(() => {
-                debugger;
-                return tipser.getCurrentCartSize();
-            })
-            .then(cartSize => this.setState({ cartSize }));
+        tipser.addToCart('5ba2334a781baa0001ccdf33').then(this.updateCartSize);
     };
 
     render() {
