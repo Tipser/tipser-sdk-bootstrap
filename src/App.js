@@ -5,7 +5,7 @@ import TipserSDK from '@tipser/tipser-sdk';
 import Button from '@material-ui/core/Button';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 
-const tipser = new TipserSDK('5075d7715c3d090a90585e87', { env: 'dev' });
+const tipser = new TipserSDK('5075d7715c3d090a90585e87', { env: 'prod' });
 
 class App extends React.Component {
     state = {
