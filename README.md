@@ -1,3 +1,6 @@
+## Live version
+See it here: [https://tipser.github.io/tipser-sdk-bootstrap](https://tipser.github.io/tipser-sdk-bootstrap/)
+
 ## What is this ?
 
 This is the very simple example of integration react web application with [tipser-sdk](https://github.com/Tipser/tipser-sdk).
