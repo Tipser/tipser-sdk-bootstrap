@@ -5,7 +5,16 @@ import TipserSDK from '@tipser/tipser-sdk';
 import Button from '@material-ui/core/Button';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 
-const tipser = new TipserSDK('5075d7715c3d090a90585e87', { env: 'prod' });
+const tipser = new TipserSDK('5075d7715c3d090a90585e87', {
+    env: 'prod',
+    modalUi: {
+        hideSearchIcon: true,
+        hideFavouritesIcon: true,
+        hideCartIcon: true,
+        hideMoreIcon: true,
+        hideSimilarProducts: true,
+    },
+});
 
 class App extends React.Component {
     state = {
@@ -20,8 +29,12 @@ class App extends React.Component {
         tipser.getCurrentCartSize().then(cartSize => this.setState({ cartSize }));
     };
 
-    onClick = () => {
+    addToCart = () => {
         tipser.addToCart('5ba2334a781baa0001ccdf33').then(this.updateCartSize);
+    };
+
+    addToCartAndOpenCheckout = () => {
+        tipser.openDirectToCheckoutDialog('5ba2334a781baa0001ccdf33').then(this.updateCartSize);
     };
 
     render() {
@@ -41,8 +54,11 @@ class App extends React.Component {
                     </div>
                 </header>
                 <div className="main">
-                    <Button variant="contained" color="primary" onClick={this.onClick}>
+                    <Button variant="contained" color="primary" onClick={this.addToCart}>
                         Add to cart item
+                    </Button>
+                    <Button variant="contained" color="primary" onClick={this.addToCartAndOpenCheckout}>
+                        Add to cart item and open checkout
                     </Button>
                 </div>
             </div>
