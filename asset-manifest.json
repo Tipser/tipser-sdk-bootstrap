@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css",
-    "main.js": "/tipser-sdk-bootstrap/static/js/main.b9470b5f.chunk.js",
-    "main.js.map": "/tipser-sdk-bootstrap/static/js/main.b9470b5f.chunk.js.map",
+    "main.js": "/tipser-sdk-bootstrap/static/js/main.b37757e2.chunk.js",
+    "main.js.map": "/tipser-sdk-bootstrap/static/js/main.b37757e2.chunk.js.map",
     "runtime~main.js": "/tipser-sdk-bootstrap/static/js/runtime~main.a0ade12f.js",
     "runtime~main.js.map": "/tipser-sdk-bootstrap/static/js/runtime~main.a0ade12f.js.map",
-    "static/js/2.4ac61f72.chunk.js": "/tipser-sdk-bootstrap/static/js/2.4ac61f72.chunk.js",
-    "static/js/2.4ac61f72.chunk.js.map": "/tipser-sdk-bootstrap/static/js/2.4ac61f72.chunk.js.map",
+    "static/js/2.0633bbb7.chunk.js": "/tipser-sdk-bootstrap/static/js/2.0633bbb7.chunk.js",
+    "static/js/2.0633bbb7.chunk.js.map": "/tipser-sdk-bootstrap/static/js/2.0633bbb7.chunk.js.map",
     "index.html": "/tipser-sdk-bootstrap/index.html",
-    "precache-manifest.8397b206a124bad094bf7e48b82d43e0.js": "/tipser-sdk-bootstrap/precache-manifest.8397b206a124bad094bf7e48b82d43e0.js",
+    "precache-manifest.1339b7a8130089878fe6f67959eb471d.js": "/tipser-sdk-bootstrap/precache-manifest.1339b7a8130089878fe6f67959eb471d.js",
     "service-worker.js": "/tipser-sdk-bootstrap/service-worker.js",
     "static/css/main.f55ac6ae.chunk.css.map": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css.map",
     "static/media/logo.svg": "/tipser-sdk-bootstrap/static/media/logo.5d5d9eef.svg"
