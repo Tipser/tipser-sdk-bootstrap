@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import TipserSDK from '@tipser/tipser-sdk';
+import { TipserSDK, TipserSdkConfig } from '@tipser/tipser-sdk';
 import Button from '@material-ui/core/Button';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 
-const tipser = new TipserSDK('5075d7715c3d090a90585e87', {
+const tipserSdkConfig: TipserSdkConfig = {
     env: 'prod',
     modalUi: {
         hideSearchIcon: true,
@@ -13,8 +13,10 @@ const tipser = new TipserSDK('5075d7715c3d090a90585e87', {
         hideCartIcon: true,
         hideMoreIcon: true,
         hideSimilarProducts: true,
-    },
-});
+    }
+};
+
+const tipserSdk = TipserSDK('5075d7715c3d090a90585e87', tipserSdkConfig);
 
 class App extends React.Component {
     state = {
@@ -26,15 +28,15 @@ class App extends React.Component {
     }
 
     updateCartSize = () => {
-        tipser.getCurrentCartSize().then(cartSize => this.setState({ cartSize }));
+        tipserSdk.getCurrentCartSize().then(cartSize => this.setState({ cartSize }));
     };
 
     addToCart = () => {
-        tipser.addToCart('5ba2334a781baa0001ccdf33').then(this.updateCartSize);
+        tipserSdk.addToCart('5ba2334a781baa0001ccdf33').then(this.updateCartSize);
     };
 
     addToCartAndOpenCheckout = () => {
-        tipser.openDirectToCheckoutDialog('5ba2334a781baa0001ccdf33').then(this.updateCartSize);
+        tipserSdk.openDirectToCheckoutDialog('5ba2334a781baa0001ccdf33').then(this.updateCartSize);
     };
 
     render() {
@@ -46,7 +48,7 @@ class App extends React.Component {
                         <p>Shop</p>
                     </div>
                     <div className="App-header__container">
-                        <Button variant="contained" color="primary" onClick={() => tipser.openPurchaseDialog()}>
+                        <Button variant="contained" color="primary" onClick={() => tipserSdk.openPurchaseDialog()}>
                             Open shop cart
                             <ShoppingBasket />
                             {this.state.cartSize > 0 && this.state.cartSize}
