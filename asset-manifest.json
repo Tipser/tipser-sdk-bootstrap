@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css",
-    "main.js": "/tipser-sdk-bootstrap/static/js/main.a036fd7b.chunk.js",
-    "main.js.map": "/tipser-sdk-bootstrap/static/js/main.a036fd7b.chunk.js.map",
+    "main.js": "/tipser-sdk-bootstrap/static/js/main.7f69bac9.chunk.js",
+    "main.js.map": "/tipser-sdk-bootstrap/static/js/main.7f69bac9.chunk.js.map",
     "runtime~main.js": "/tipser-sdk-bootstrap/static/js/runtime~main.a0ade12f.js",
     "runtime~main.js.map": "/tipser-sdk-bootstrap/static/js/runtime~main.a0ade12f.js.map",
     "static/js/2.da180262.chunk.js": "/tipser-sdk-bootstrap/static/js/2.da180262.chunk.js",
     "static/js/2.da180262.chunk.js.map": "/tipser-sdk-bootstrap/static/js/2.da180262.chunk.js.map",
     "index.html": "/tipser-sdk-bootstrap/index.html",
-    "precache-manifest.9f8bb7904d31e417167164f3d0741c49.js": "/tipser-sdk-bootstrap/precache-manifest.9f8bb7904d31e417167164f3d0741c49.js",
+    "precache-manifest.76a81ee24e05ee4f1d9a6a9864217c40.js": "/tipser-sdk-bootstrap/precache-manifest.76a81ee24e05ee4f1d9a6a9864217c40.js",
     "service-worker.js": "/tipser-sdk-bootstrap/service-worker.js",
     "static/css/main.f55ac6ae.chunk.css.map": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css.map",
     "static/media/logo.svg": "/tipser-sdk-bootstrap/static/media/logo.5d5d9eef.svg"
