@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "afda1465ba8a11fadd6c12d81124bb45",
+    "revision": "7d07215733c6d57fd8448d1f400090fb",
     "url": "/tipser-sdk-bootstrap/index.html"
   },
   {
-    "revision": "401f8732c92385feeb0d",
+    "revision": "2e41f9e79279038a33cb",
     "url": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css"
   },
   {
-    "revision": "411e6199c49fb8a2ebc1",
-    "url": "/tipser-sdk-bootstrap/static/js/2.0633bbb7.chunk.js"
+    "revision": "eb44ef4a9b64892e5d1f",
+    "url": "/tipser-sdk-bootstrap/static/js/2.da180262.chunk.js"
   },
   {
-    "revision": "401f8732c92385feeb0d",
-    "url": "/tipser-sdk-bootstrap/static/js/main.063ccc26.chunk.js"
+    "revision": "2e41f9e79279038a33cb",
+    "url": "/tipser-sdk-bootstrap/static/js/main.d5df6dd9.chunk.js"
   },
   {
     "revision": "56cd6a1f1c5aaad4840a",
