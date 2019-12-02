@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tipser-sdk-bootstrap/static/css/main.a76ed725.chunk.css",
-    "main.js": "/tipser-sdk-bootstrap/static/js/main.1572198e.chunk.js",
-    "main.js.map": "/tipser-sdk-bootstrap/static/js/main.1572198e.chunk.js.map",
+    "main.css": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css",
+    "main.js": "/tipser-sdk-bootstrap/static/js/main.5c2631d0.chunk.js",
+    "main.js.map": "/tipser-sdk-bootstrap/static/js/main.5c2631d0.chunk.js.map",
     "runtime~main.js": "/tipser-sdk-bootstrap/static/js/runtime~main.a0ade12f.js",
     "runtime~main.js.map": "/tipser-sdk-bootstrap/static/js/runtime~main.a0ade12f.js.map",
-    "static/js/2.1f88cc5d.chunk.js": "/tipser-sdk-bootstrap/static/js/2.1f88cc5d.chunk.js",
-    "static/js/2.1f88cc5d.chunk.js.map": "/tipser-sdk-bootstrap/static/js/2.1f88cc5d.chunk.js.map",
+    "static/js/2.0633bbb7.chunk.js": "/tipser-sdk-bootstrap/static/js/2.0633bbb7.chunk.js",
+    "static/js/2.0633bbb7.chunk.js.map": "/tipser-sdk-bootstrap/static/js/2.0633bbb7.chunk.js.map",
     "index.html": "/tipser-sdk-bootstrap/index.html",
-    "precache-manifest.1e0fe3c82a71393919cd16c6e36dfdf2.js": "/tipser-sdk-bootstrap/precache-manifest.1e0fe3c82a71393919cd16c6e36dfdf2.js",
+    "precache-manifest.82f687cb2109c4e224436c164b043611.js": "/tipser-sdk-bootstrap/precache-manifest.82f687cb2109c4e224436c164b043611.js",
     "service-worker.js": "/tipser-sdk-bootstrap/service-worker.js",
-    "static/css/main.a76ed725.chunk.css.map": "/tipser-sdk-bootstrap/static/css/main.a76ed725.chunk.css.map",
-    "static/media/logo.svg": "/tipser-sdk-bootstrap/static/media/logo.ee7cd8ed.svg"
+    "static/css/main.f55ac6ae.chunk.css.map": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css.map",
+    "static/media/logo.svg": "/tipser-sdk-bootstrap/static/media/logo.5d5d9eef.svg"
   }
 }
