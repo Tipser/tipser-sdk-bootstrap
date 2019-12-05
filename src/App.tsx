@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 
 const tipserSdkConfig: TipserSdkConfig = {
-    env: 'prod',
+    env: 'dev',
     modalUi: {
         hideSearchIcon: true,
         hideFavouritesIcon: true,
