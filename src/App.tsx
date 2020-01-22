@@ -1,22 +1,27 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { TipserSDK, TipserSdkConfig } from '@tipser/tipser-sdk';
+import { TipserSDK, TipserSdkConfig, TipserEnv, TipserLang } from '@tipser/tipser-sdk';
 import Button from '@material-ui/core/Button';
 import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 
+const posId = '5075d7715c3d090a90585e87';
+
 const tipserSdkConfig: TipserSdkConfig = {
-    env: 'dev',
+    posId: '45cbc4a0e4123f6920000002',
+    lang: 'en-US',
+    env: TipserEnv.dev,
+    primaryColor: '#f00',
     modalUi: {
         hideSearchIcon: true,
         hideFavouritesIcon: true,
         hideCartIcon: true,
         hideMoreIcon: true,
         hideSimilarProducts: true,
-    }
+    },
 };
 
-const tipserSdk = TipserSDK('5075d7715c3d090a90585e87', tipserSdkConfig);
+const tipserSdk = TipserSDK(posId, tipserSdkConfig);
 
 class App extends React.Component {
     state = {
