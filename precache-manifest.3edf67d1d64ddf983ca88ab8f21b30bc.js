@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a1dcfeb647e91566324b2132d46ebeb",
+    "revision": "1d8b8968e9b8dce52c8f6558870b2335",
     "url": "/tipser-sdk-bootstrap/index.html"
   },
   {
-    "revision": "ad21f288b1605c288a9b",
+    "revision": "422045a6b7f5c644e5ba",
     "url": "/tipser-sdk-bootstrap/static/css/main.f55ac6ae.chunk.css"
   },
   {
-    "revision": "20757f4b736b89c61bda",
-    "url": "/tipser-sdk-bootstrap/static/js/2.3c698d84.chunk.js"
+    "revision": "03ad073299e3f2e3e2e7",
+    "url": "/tipser-sdk-bootstrap/static/js/2.e08fb389.chunk.js"
   },
   {
-    "revision": "83dd65ea26dd7e6f925c6f92fdc154d7",
-    "url": "/tipser-sdk-bootstrap/static/js/2.3c698d84.chunk.js.LICENSE"
+    "revision": "5250e675378b32ff812c6dcc6be8aabe",
+    "url": "/tipser-sdk-bootstrap/static/js/2.e08fb389.chunk.js.LICENSE"
   },
   {
-    "revision": "ad21f288b1605c288a9b",
-    "url": "/tipser-sdk-bootstrap/static/js/main.85ed5efc.chunk.js"
+    "revision": "422045a6b7f5c644e5ba",
+    "url": "/tipser-sdk-bootstrap/static/js/main.94c38e46.chunk.js"
   },
   {
     "revision": "9546590a0dc7b4856bd7",
