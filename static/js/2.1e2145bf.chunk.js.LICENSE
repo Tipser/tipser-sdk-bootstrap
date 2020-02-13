@@ -10,12 +10,6 @@ object-assign
 @license MIT
 */
 
-/*
-    object-assign
-    (c) Sindre Sorhus
-    @license MIT
-    */
-
 /** @license React v16.8.6
  * react.production.min.js
  *
