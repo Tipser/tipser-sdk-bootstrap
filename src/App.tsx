@@ -10,7 +10,7 @@ const posId = '5075d7715c3d090a90585e87';
 const tipserSdkConfig: TipserSdkConfig = {
     posId: '45cbc4a0e4123f6920000002',
     lang: 'en-US',
-    env: TipserEnv.dev,
+    env: TipserEnv.prod,
     primaryColor: '#f00',
     modalUi: {
         hideSearchIcon: true,
