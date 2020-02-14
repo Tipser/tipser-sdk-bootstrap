@@ -13,6 +13,7 @@
     "react-scripts": "^3.3.0",
     "typescript": "^3.5.1"
   },
+  "homepage": "https://tipser.github.io/tipser-sdk-bootstrap/",
   "scripts": {
     "start": "react-scripts start",
     "start-https": "HTTPS=true react-scripts start",
